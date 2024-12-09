@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- About Css -->
+  <link rel="stylesheet" href="/css/about.css">
+</head>
+
+<body>
+
+  <!-- Sticky box -->
+  <div>
+    <button class="sticky-btn">Book Appointment</button>
+  </div>
+
+  <!-- Nav Bar -->
+  <header>
+    <section class="container topmenu">
+      <div class="menu-desk">
+        <div class="hamburger" id="hamburger" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
+          aria-controls="mobileMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="logo">
+          <img src="img/logo.png" alt="" style="height: 80px; width: 100px;" />
+        </div>
+        <div class="contact-info">
+          <span><i class="fas fa-clock"></i>24x7 Days</span>
+          <span><i class="fas fa-envelope"></i>earpvtind@gmail.com</span>
+          <span><a href="tel:+91899909997" class="menu-phone"><i class="fas fa-phone"></i> +918989889898</a></span>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <div class="offcanvas" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header">
+      <button type="button" class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close">&times;</button>
+    </div>
+    <div class="offcanvas-body">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="/contact.html">Contact Us</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+  <a href="tel:+91899909997" class="call-btn" id="callBtn">
+    <i class="fas fa-phone-alt"></i>
+  </a>
+
+
+  <section class="desktop-menu">
+    <div class="container" id="deskmenu">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#find-stores">Blogs</a></li>
+        <li><a href="/contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about-us">
+    <!-- Section 1 (Mission) -->
+    <div class="section" id="mission-section">
+      <div class="row">
+        <div class="col-md-6">
+          <img id="mission-img" src="img/mission.jpg" alt="Our Mission" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-container" id="mission-text">
+          <h2 id="mission-heading">Our Mission</h2>
+          <p id="mission-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis interdum
+            nisi, vitae efficitur nisi facilisis a. Proin at risus sit amet felis varius pharetra.</p>
+          <button class="btn-primary" id="mission-btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 (Team) -->
+    <div class="section" id="team-section">
+      <div class="row">
+        <div class="col-md-6 order-md-2">
+          <img id="team-img" src="img/vision.jpg" alt="Our Team" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-container" id="team-text">
+          <h2 id="team-heading">Our Vision</h2>
+          <p id="team-paragraph">Curabitur at magna sit amet libero dapibus ullamcorper. Aenean vestibulum tincidunt
+            lorem, in scelerisque eros tristique ac. Etiam sodales semper lectus vel vehicula.</p>
+          <button class="btn-primary" id="team-btn">Meet the Team</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 (Vision) -->
+    <div class="section" id="vision-section">
+      <div class="row">
+        <div class="col-md-6">
+          <img id="vision-img" src="img/goals.jpg" alt="Our Vision" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-container" id="vision-text">
+          <h2 id="vision-heading">Our Goals</h2>
+          <p id="vision-paragraph">Pellentesque fringilla erat a sollicitudin pretium. Suspendisse potenti. Cras
+            hendrerit lacus et felis consectetur, nec faucibus erat faucibus.</p>
+          <button class="btn-primary" id="vision-btn">Explore Vision</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4 (Values) -->
+    <div class="section" id="values-section">
+      <div class="row">
+        <div class="col-md-6 order-md-2">
+          <img id="values-img" src="img/img-9.jpg" alt="Our Values" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-container" id="values-text">
+          <h2 id="values-heading">Our Values</h2>
+          <p id="values-paragraph">Quisque faucibus odio a nisi congue, eget venenatis felis faucibus. Sed a tortor
+            lacus. Fusce dictum feugiat velit, ac ullamcorper elit tempor et.</p>
+          <button class="btn-primary" id="values-btn">Our Values</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section">
+    <div class="container">
+      <h2 class="title">Meet Our Team</h2>
+      <div class="team">
+        <div class="team-member">
+          <img src="img/doc1.jpg" alt="Dr. Jane Doe">
+          <h5>Dr. Jane Doe</h5>
+          <p>Chief Medical Officer</p>
+        </div>
+        <div class="team-member">
+          <img src="img/doc2.jpg" alt="Dr. John Smith">
+          <h5>Dr. John Smith</h5>
+          <p>Family Medicine Specialist</p>
+        </div>
+        <div class="team-member">
+          <img src="img/doc3.jpg" alt="Dr. Emily Davis">
+          <h5>Dr. Emily Davis</h5>
+          <p>Cardiologist</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget subscribe no-box">
+              <h5 class="widget-title">COMPANY NAME<span></span></h5>
+              <p>About the company, little discription will goes here.. </p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">Quick Links<span></span></h5>
+              <ul class="thumbnail-widget">
+                <li>
+                  <div class="thumb-content"><a href="#.">Home</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">About</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">Blog</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">News</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">Life Style</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">Contact-us</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">Get Started<span></span></h5>
+              <p>Get access to your full Training and Marketing Suite.</p>
+              <a class="btn" href="#" target="_blank">Subscribe Now</a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+
+            <div class="widget no-box">
+              <h5 class="widget-title">Contact Us<span></span></h5>
+
+              <p><i class="fa fa-envelope"></i><a href="mailto:info@domain.com" class="foot-link" title="glorythemes">
+                  info@domain.com</a></p>
+              <ul class="social-footer2">
+                <li class="social"><a title="youtube" target="_blank" href="https://bit.ly/3m9avif"><i
+                      class="fa fa-youtube"></i></a>
+                </li>
+                <li class="social"><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i
+                      class="fa fa-facebook"></i></a>
+                </li>
+                <li class="social"><a href="https://twitter.com" target="_blank" title="Twitter"><i
+                      class="fa fa-twitter"></i></a>
+                </li>
+                <li class="social"><a title="instagram" target="_blank" href="https://www.instagram.com/"><i
+                      class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright Medical © 2024. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    // Create the IntersectionObserver to detect when each section enters the viewport
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        const section = entry.target;
+        if (entry.isIntersecting) {
+          // Add the 'active' class to trigger the animation
+          section.classList.add('active');
+          section.querySelector('.text-container').classList.add('active');
+          observer.unobserve(section); // Stop observing once it becomes visible
+        }
+      });
+    }, {
+      threshold: 0.5 // Trigger when 50% of the section is visible
+    });
+
+    // Observe each section
+    const sections = document.querySelectorAll('.section');
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+
+<!-- whats App -->
+  <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+  <script>
+    var wa_btnSetting = { "btnColor": "#16BE45", "ctaText": "WhatsApp", "cornerRadius": 40, "marginBottom": "20", "marginLeft": 20, "marginRight": 20, "btnPosition": "right", "whatsAppNumber": "918989889898", "welcomeMessage": "Hi", "zIndex": 999999, "btnColorScheme": "light" };
+    window.onload = () => {
+      _waEmbed(wa_btnSetting);
+    };
+  </script>
+
+</body>
+
+</html>
